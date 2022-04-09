@@ -109,14 +109,14 @@
 
       (async function () {
         let res = await axios.post(
-          "https://Glovia-menstrual-care.herokuapp.com/auth/mail"
+          "https://margo-menstrual-care.herokuapp.com/auth/mail"
         );
         name = res.data.id.split("@")[0];
       })();
 
       let addMsg = async (value) => {
         let res = await axios.get(
-          `https://profanewordGloviaapi.azurewebsites.net/predict/${value}`
+          `https://profanewordmargoapi.azurewebsites.net/predict/${value}`
         );
         addMsgIntoUI(res.data.txt);
       };

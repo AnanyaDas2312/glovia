@@ -20,7 +20,7 @@ $(async () => {
   options.uid = urlParams.get("uid");
   let res;
   if (!urlParams.get("uid")) {
-    res = await axios.post("https://Gloviawomen.herokuapp.com/call/connect", {
+    res = await axios.post("https://margowomen.herokuapp.com/call/connect", {
       mail: "architgarg603@gmail.com",
     });
   }
