@@ -205,6 +205,11 @@ Our Services Started
 ********************
 */
 
+.main-text1 {
+    font-family: 'Pacifico',
+        cursive;
+    color: #661194;
+}
 
 .our-services-heading{
     position: absolute;

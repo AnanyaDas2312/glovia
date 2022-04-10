@@ -96,6 +96,13 @@ i{
     color:#ffffff;
 
 }
+
+.main-text1 {
+    font-family: 'Pacifico',
+        cursive;
+    color: #661194;
+}
+
 .pic>img{
     height: 35px;
     border-radius: 50%;
@@ -121,7 +128,7 @@ i{
 .forum-heading{
     /* background-color:#ffffff; */
     color: #661194;
-    font-family: Roboto,sans-serif;
+    font-family: 'Pacifico',cursive;;
     font-size:5rem;
     padding:8px 0;
     position:absolute;

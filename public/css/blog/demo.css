@@ -95,6 +95,19 @@ a:focus {
 	text-align: center;
 }
 
+.main-text{
+	font-family: 'Pacifico',
+	cursive;
+	font-size: 250%;
+	color: #661194;
+}
+
+.main-text1{
+	font-family: 'Pacifico',
+		cursive;
+	color: #661194;
+}
+
 .codrops-header h1 {
 	font-size: 2.25em;
 	font-weight: 400;
