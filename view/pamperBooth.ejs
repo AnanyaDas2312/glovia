@@ -111,7 +111,9 @@
           <button onclick="sendEmail()" class="notifications-button">
             <img src="/img/send.png" class="send-icon" />
           </button>
+
         </div>
+        
         <div>
           <img src="/img/girls1.png" class="notifications-image" />
         </div>
@@ -119,6 +121,7 @@
     </div>
     <script>
        var apis = ["https://spotify-mood-playlist-api.herokuapp.com/periodCramp","https://spotify-mood-playlist-api.herokuapp.com/sad","https://spotify-mood-playlist-api.herokuapp.com/good","https://spotify-mood-playlist-api.herokuapp.com/happy"];
+       var smsapi =["https://sms-api-glovia.herokuapp.com/"];
        var buttons = document.getElementsByClassName("emotion-btn");
     //    console.log(buttons);
        for(var i=0;i<buttons.length;i++){
@@ -127,6 +130,10 @@
                 document.getElementsByClassName("playlist-link")[0].textContent = "Playlist Link!";
                 switch(e.srcElement.classList[0]){
                     case "in-pain":
+                                    fetch('https://sms-api-glovia.herokuapp.com/')
+                                    .then(users => {
+                                      console.log(users);
+                                    })  
                                     await fetch("https://pure-caverns-94319.herokuapp.com/"+apis[0])
                                         .then(response => response.json())
                                         .then(data => {
@@ -134,6 +141,10 @@
                                     });
                                     break;
                     case "okayish":
+                                    fetch('https://sms-api-glovia.herokuapp.com/')
+                                    .then(users => {
+                                      console.log(users);
+                                    }) 
                                     await fetch("https://pure-caverns-94319.herokuapp.com/"+apis[1])
                                         .then(response => response.json())
                                         .then(data => {
