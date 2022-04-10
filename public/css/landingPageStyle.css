@@ -238,14 +238,6 @@ left: 98px;
 top: 885px;
 }
 
-.notifications-icon{
-    position: absolute;
-width: 100px;
-height: 100px;
-left: 98px;
-top: 1232px;
-}
-
 .pamper-booth-icon{
     position: absolute;
     width: 100px;
@@ -408,37 +400,6 @@ Our Team Started
 **********************
 */
 
-.pooja-image{
-    position: absolute;
-width: 300px;
-height: 300px;
-left: 98px;
-top: 1742px;
-}
-
-.nishtha-image{
-    position: absolute;
-width: 300px;
-height: 300px;
-left: 442px;
-top: 1742px;
-}
-
-.gaurisha-image{
-    position: absolute;
-width: 300px;
-height: 300px;
-left: 98px;
-top: 2090px;
-}
-
-.simran-image{
-    position: absolute;
-width: 300px;
-height: 300px;
-left: 442px;
-top: 2090px;
-}
 
 .about-Glovia{
     position: absolute;
