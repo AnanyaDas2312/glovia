@@ -9,6 +9,8 @@ const {
   getProfile,
   getForum,
   getConnect,
+  login,
+  signup,
   getVideoCall,
 } = require("../controller/viewController")
 const express = require("express");
@@ -25,6 +27,8 @@ viewRouter.get("/tracker",getTracker)
 viewRouter.get("/profile",getProfile)
 viewRouter.get("/forum",getForum)
 viewRouter.get("/connect",getConnect)
+viewRouter.get("/LogIn",login)
+viewRouter.get("/signUp",signup)
 viewRouter.get("", getLanding)
 viewRouter.get("/videoCall",getVideoCall)
 

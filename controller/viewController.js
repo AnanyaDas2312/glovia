@@ -50,12 +50,12 @@ const getConnect = (req,res)=>{
 }
 const login = (req,res)=>{
  
-    res.render("LogIn.html");
+    res.render("LogIn.ejs");
  
 }
 const signup = (req,res)=>{
  
-    res.render("signUp.html");
+    res.render("signUp.ejs");
  
 }
 const getVideoCall = (req, res) => {
