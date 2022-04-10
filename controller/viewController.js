@@ -48,6 +48,16 @@ const getConnect = (req,res)=>{
     res.render("call.ejs");
  
 }
+const login = (req,res)=>{
+ 
+    res.render("LogIn.html");
+ 
+}
+const signup = (req,res)=>{
+ 
+    res.render("signUp.html");
+ 
+}
 const getVideoCall = (req, res) => {
  
     res.render("videoCall.ejs");
@@ -65,5 +75,7 @@ module.exports = {
     getProfile,
     getForum,
     getConnect,
+    login,
+    signup,
     getVideoCall
 }
